@@ -10,11 +10,27 @@ h6 {
 }
 
 h1 {
-  font-size: $u8 * 1em;
+  font-size: $u4 * 1em;
   font-weight: normal;
   letter-spacing: 0.125em;
   line-height: 1;
   margin: 0.5em 0;
+
+  @include media(xs) {
+    font-size: $u5 * 1em;
+  }
+
+  @include media(sm) {
+    font-size: $u6 * 1em;
+  }
+
+  @include media(md) {
+    font-size: $u7 * 1em;
+  }
+
+  @include media(lg) {
+    font-size: $u8 * 1em;
+  }
 }
 
 h2 {
