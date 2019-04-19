@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+  font-family: $sans;
+  font-size: 1.6rem;
+  line-height: $u2;
+  overflow-y: scroll;
+}
+
+header {
+  color: $gray9;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: $grayD;
+  padding-bottom: 5rem;
+}
