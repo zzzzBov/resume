@@ -1,4 +1,4 @@
 .Profile {
-  @include Section();
+  @include Section(right);
   grid-area: profile;
 }

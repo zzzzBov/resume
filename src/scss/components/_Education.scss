@@ -1,4 +1,4 @@
 .Education {
-  @include Section();
+  @include Section(left);
   grid-area: education;
 }

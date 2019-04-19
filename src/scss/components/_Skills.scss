@@ -1,4 +1,4 @@
 .Skills {
-  @include Section();
+  @include Section(left);
   grid-area: skills;
 }

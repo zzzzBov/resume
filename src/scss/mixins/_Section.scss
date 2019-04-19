@@ -1,3 +1,15 @@
-@mixin Section() {
-  
+@mixin Section($side) {
+  margin-bottom: 1em;
+  text-align: if($side == right, left, right);
+
+  @if $side == left {
+    ul {
+      list-style: none;
+    }
+  }
+
+  &_heading {
+    border-bottom: 0.2rem solid $grayC;
+    text-transform: uppercase;
+  }
 }

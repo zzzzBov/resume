@@ -1,15 +1,8 @@
 .Header {
-  color: $gray9;
   text-align: center;
 
   &_title {
     background-color: $grayD;
-    color: $gray2;
-    font-size: $u8 * 1em;
-    font-weight: normal;
-    letter-spacing: 0.125em;
-    line-height: 1;
-    margin: 1em 0 0.5em;
     text-transform: uppercase;
   }
 

@@ -1,4 +1,4 @@
 .Experience {
-  @include Section();
+  @include Section(right);
   grid-area: experience;
 }
