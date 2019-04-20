@@ -1,0 +1,67 @@
+ _____ _                 _   _             _                            _   _   
+|_   _(_)_ __ ___   ___ | |_| |__  _   _  | |    _____   _____ _ __ ___| |_| |_ 
+  | | | | '_ ` _ \ / _ \| __| '_ \| | | | | |   / _ \ \ / / _ \ '__/ _ \ __| __|
+  | | | | | | | | | (_) | |_| | | | |_| | | |__|  __/\ V /  __/ | |  __/ |_| |_ 
+  |_| |_|_| |_| |_|\___/ \__|_| |_|\__, | |_____\___| \_/ \___|_|  \___|\__|\__|
+                                   |___/                                        
+
+                                Front-end Developer
+
+                CONTACT  |  PROFESSIONAL PROFILE
+-----------------------  |  ----------------------------------------------------
+            zzzzBov.com  |  I am a front-end web developer with a focus in
+      zzzzBov@gmail.com  |  accessibility. I love to learn. I enjoy writing
+     github.com/zzzzBov  |  JavaScript and making beautiful websites with HTML
+    twitter.com/zzzzBov  |  and CSS.
+linkedin.com/in/zzzzBov  |
+                         |  I do my best to be an accessibility advocate by
+                         |  promoting usability and inclusive design. I try to
+              EDUCATION  |  make sure that the websites I work on follow
+-----------------------  |  accessibility best practices and can be used
+    Bachelor of Science  |  by everyone.
+ Information Technology  |
+      RIT, Rochester NY  |
+              2006-2010  |  EXPERIENCE
+                         |  ----------------------------------------------------
+                         |
+                 SKILLS  |  Senior Developer
+-----------------------  |  GeekHive / Warwick, NY / April 2011 - April 2019
+                   HTML  |  - Assessed clients' business needs and implemented
+                    CSS  |    custom web development solutions designed to best
+             JavaScript  |    fit their goals, budget, and schedule
+                   WCAG  |  - Collaborated with a mixed remote team through code
+                   ARIA  |    reviews, pair programming sessions, and problem
+                     C#  |    solving sessions
+                   Node  |  - Mentored and trained co-ops and new hires
+                   Sass  |  - Developed/led training sessions for Sitecore CMS
+                   Less  |  - Developed and maintained a custom framework for
+             TypeScript  |    Sitecore CMS
+                  React  |  - Designed the primary workflow used for all
+                    Vue  |    development projects
+                 jQuery  |
+                    PHP  |
+               Sitecore  |  Web Developer
+                ASP.NET  |  Laboratory for Laser Energetics / Rochester, NY /
+              Wordpress  |   June 2010 - April 2011
+                    XML  |  - Developed web projects for the publication and
+                   AJAX  |    design department
+                  Redux  |  - Continued Virtual Tour development from
+                    SVG  |    2009 internship
+              Mentoring  |  - Built a flash-based media player for playing
+               Training  |    locally hosted videos
+                         |
+                         |
+                         |  VR Intern
+                         |  Laboratory for Laser Energetics / Rochester, NY /
+                         |   June 2010 - April 2011
+                         |  - Updated website designs and content
+                         |  - Virtual Tour development
+                         |
+                         |
+                         |  Mapping Intern
+                         |  Agriculture Consulting Services / Rochester, NY /
+                         |   May 2008 - September 2008
+                         |  - Plotted field map data for clients using AutoCAD
+                         |  - Assisted with various technical difficulties
+                         |  - Created a conversion utility to transform raw
+                         |    harvesting data into a more accessible format
