@@ -31,10 +31,6 @@ h1 {
   @include media(lg) {
     font-size: $u8 * 1em;
   }
-
-  @media print {
-    margin-top: 0;
-  }
 }
 
 h2 {
