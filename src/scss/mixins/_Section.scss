@@ -1,16 +1,25 @@
 @mixin Section($side) {
   margin-bottom: 1em;
-  text-align: if($side == right, left, right);
 
+  @include media(md) {
+    text-align: if($side == right, left, right);
+  }
+  
   @if $side == left {
     ul {
-      list-style: none;
-      padding: 0;
+      @include media(md) {
+        list-style: none;
+        padding: 0;
+      }
     }
     li {
-      padding: 0;
+      @include media(md) {
+        padding: 0;
+      }
     }
   }
+
+  
 
   &_heading {
     border-bottom: 0.2rem solid $grayC;
