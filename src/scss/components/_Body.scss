@@ -7,19 +7,40 @@
     "experience"
     "skills    "
   /  1fr       ;
+  margin: 0 auto;
 
-  @include media(xl) {
+  @include media(md) {
     background-image: linear-gradient($grayC, $grayC);
-    background-position: 30.7rem;
     background-repeat: repeat-y;
     background-size: 0.2rem;
+    grid-template-areas:
+      "contact   profile   "
+      "education experience"
+      "skills    experience";
+    grid-template-rows:
+      auto
+      auto
+      1fr;
+  }
+
+  @include media(md, lg) {
+    background-position: 22.3rem 0;
+    gap: 0 4.8rem;
+    grid-template-columns: 20rem 50rem;
+    width: 74.8rem;
+  }
+
+  @include media(lg, xl) {
+    background-position: 30.2rem 0;
+    gap: 0 5.5rem;
+    grid-template-columns: 27.5rem 60rem;
+    width: 93rem;
+  }
+
+  @include media(xl) {
+    background-position: 30.7rem 0;
     gap: 0 6.5rem;
-    grid-template:
-      "contact   profile   " auto
-      "education experience" auto
-      "skills    experience" 1fr
-    /  27.5rem   70rem     ;
-    margin: 0 auto;
+    grid-template-columns: 27.5rem 70rem;
     width: 104rem;
   }
 }
