@@ -16,44 +16,44 @@
 linkedin.com/in/zzzzBov  |
                          |  I do my best to be an accessibility advocate by
                          |  promoting usability and inclusive design. I try to
-              EDUCATION  |  make sure that the websites I work on follow
------------------------  |  accessibility best practices and can be used
-    Bachelor of Science  |  by everyone.
- Information Technology  |
-      RIT, Rochester NY  |
-              2006-2010  |  EXPERIENCE
-                         |  ----------------------------------------------------
-                         |
-                 SKILLS  |  Senior Developer
------------------------  |  GeekHive / Warwick, NY / April 2011 - April 2019
-                   HTML  |  - Assessed clients' business needs and implemented
-                    CSS  |    custom web development solutions designed to best
-             JavaScript  |    fit their goals, budget, and schedule
-                   WCAG  |  - Collaborated with a mixed remote team through code
-                   ARIA  |    reviews, pair programming sessions, and problem
-                     C#  |    solving sessions
-                   Node  |  - Mentored and trained co-ops and new hires
-                   Sass  |  - Developed/led training sessions for Sitecore CMS
-                   Less  |  - Developed and maintained a custom framework for
-             TypeScript  |    Sitecore CMS
-                  React  |  - Designed the primary workflow used for all
-                    Vue  |    development projects
-                 jQuery  |
-                    PHP  |
-               Sitecore  |  Web Developer
-                ASP.NET  |  Laboratory for Laser Energetics / Rochester, NY /
-              Wordpress  |   June 2010 - April 2011
-                    XML  |  - Developed web projects for the publication and
-                   AJAX  |    design department
-                  Redux  |  - Continued Virtual Tour development from
-                    SVG  |    2009 internship
-              Mentoring  |  - Built a flash-based media player for playing
-               Training  |    locally hosted videos
+                         |  make sure that the websites I work on follow
+                         |  accessibility best practices and can be used
+                         |  by everyone.
                          |
                          |
-                         |  VR Intern
-                         |  Laboratory for Laser Energetics / Rochester, NY /
-                         |   June 2010 - April 2011
+              EDUCATION  |  EXPERIENCE
+-----------------------  |  ----------------------------------------------------
+    Bachelor of Science  |
+ Information Technology  |  Senior Developer
+      RIT, Rochester NY  |  GeekHive / Warwick, NY / April 2011 - April 2019
+              2006-2010  |  - Assessed clients' business needs and implemented
+                         |    custom web development solutions designed to best
+                         |    fit their goals, budget, and schedule
+                 SKILLS  |  - Collaborated with a mixed remote team through code
+-----------------------  |    reviews, pair programming sessions, and problem
+                   HTML  |    solving sessions
+                    CSS  |  - Mentored and trained co-ops and new hires
+             JavaScript  |  - Developed/led training sessions for Sitecore CMS
+                   WCAG  |  - Developed and maintained a custom framework for
+                   ARIA  |    Sitecore CMS
+                     C#  |  - Designed the primary workflow used for all
+                   Node  |    development projects
+                   Sass  |
+                   Less  |
+             TypeScript  |  Web Developer
+                  React  |  Laboratory for Laser Energetics / Rochester, NY /
+                    Vue  |   June 2010 - April 2011
+                 jQuery  |  - Developed web projects for the publication and
+                    PHP  |    design department
+               Sitecore  |  - Continued Virtual Tour development from
+                ASP.NET  |    2009 internship
+              Wordpress  |  - Built a flash-based media player for playing
+                    XML  |    locally hosted videos
+                   AJAX  |
+                  Redux  |
+                    SVG  |  VR Intern
+              Mentoring  |  Laboratory for Laser Energetics / Rochester, NY /
+               Training  |   June 2010 - April 2011
                          |  - Updated website designs and content
                          |  - Virtual Tour development
                          |
