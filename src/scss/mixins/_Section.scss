@@ -4,6 +4,9 @@
   @include media(md) {
     text-align: if($side == right, left, right);
   }
+  @media print {
+    text-align: if($side == right, left, right);
+  }
   
   @if $side == left {
     ul {
@@ -11,9 +14,17 @@
         list-style: none;
         padding: 0;
       }
+      @media print {
+        list-style: none;
+        padding: 0;
+      }
     }
     li {
       @include media(md) {
+        padding: 0;
+      }
+      @media print {
+        list-style: none;
         padding: 0;
       }
     }

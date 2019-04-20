@@ -22,4 +22,8 @@ body {
   font-size: 1.6rem;
   line-height: $u2;
   overflow-y: scroll;
+
+  @media print {
+    font-size: 1.2rem;
+  }
 }

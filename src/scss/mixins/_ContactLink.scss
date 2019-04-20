@@ -22,4 +22,14 @@
       content: $icon;
     }
   }
+  
+  @media print {
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      content: $icon;
+    }
+  }
 }
