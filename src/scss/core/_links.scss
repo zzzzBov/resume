@@ -1,0 +1,22 @@
+:link {
+  color: $blue;
+}
+
+:visited {
+  color: $purple;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+  
+  @media print {
+    color: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    text-decoration: underline;
+  }
+}

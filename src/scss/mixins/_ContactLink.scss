@@ -1,0 +1,25 @@
+@mixin ContactLink($icon) {
+  &::before,
+  &::after {
+    font-family: $fontawesome;
+  }
+
+  &::before {
+    content: $icon;
+    margin-right: 0.5em;
+  }
+
+  &::after {
+    margin-left: 0.5em;
+  }
+
+  @include media(md) {
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      content: $icon;
+    }
+  }
+}
