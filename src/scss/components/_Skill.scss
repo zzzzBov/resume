@@ -1,13 +1,12 @@
 .Skill {
-  border: 0.1rem solid $gray8;
+  border: 0.1rem solid $gray6;
   border-radius: 0.4rem;
   display: inline-block;
   margin: 0.1rem 0;
   padding: 0.1rem 0.3rem;
 
   &-highlight {
-    background-color: $blue;
-    border-color: $blue;
+    background-color: $gray6;
     color: $white;
   }
 }
