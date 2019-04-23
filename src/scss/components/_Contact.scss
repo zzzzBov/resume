@@ -1,4 +1,25 @@
 .Contact {
   @include Section(left);
   grid-area: contact;
+
+  &_list {
+    @include media(md) {
+      list-style: none;
+      padding: 0;
+    }
+    @media print {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      @include media(md) {
+        padding: 0;
+      }
+      @media print {
+        list-style: none;
+        padding: 0;
+      }
+    }
+  }
 }
