@@ -6,7 +6,8 @@
   padding: 0.1rem 0.3rem;
 
   &-highlight {
-    background-color: $gray6;
+    background-color: $accent;
+    border-color: $accent;
     color: $white;
   }
 }
