@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "b0792fe62862fe7e7198",
-    "url": "/resume/static/css/main.985893d8.chunk.css"
+    "revision": "1cfbf7910d5f794ca490",
+    "url": "/resume/static/css/main.0040b371.chunk.css"
   },
   {
-    "revision": "b0792fe62862fe7e7198",
+    "revision": "1cfbf7910d5f794ca490",
     "url": "/resume/static/js/main.cf71af64.chunk.js"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "f4e763db45e5bafba242526c3ef9d722",
+    "revision": "37d758be2a40edfa503eafafb40dfe70",
     "url": "/resume/index.html"
   }
 ];
