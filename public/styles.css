@@ -1,0 +1,310 @@
+@layer normalize, core, components;
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600";
+@import "normalize.css" layer(normalize);
+
+@page {
+  margin: 0;
+}
+
+@layer core {
+  @layer document {
+    * {
+      box-sizing: border-box;
+      flex: 0 1 auto;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 100%;
+      height: 100%;
+
+      --black: #000;
+
+      --gray1: #111;
+      --gray2: #222;
+      --gray3: #333;
+      --gray4: #444;
+      --gray5: #555;
+      --gray6: #666;
+      --gray7: #777;
+      --gray8: #888;
+      --gray9: #999;
+      --grayA: #aaa;
+      --grayB: #bbb;
+      --grayC: #ccc;
+      --grayD: #ddd;
+      --grayE: #eee;
+
+      --white: #fff;
+
+      --blue: #05a;
+      --purple: #808;
+
+      --accent: var(--blue);
+
+      --sans: "Open Sans", sans-serif;
+
+      --u8: 4;
+      --u7: 3.3636;
+      --u6: 2.8284;
+      --u5: 2.3784;
+      --u4: 2;
+      --u3: 1.6818;
+      --u2: 1.4142;
+      --u1: 1.1892;
+
+      --d1: 0.8409;
+      --d2: 0.7071;
+      --d3: 0.5946;
+      --d4: 0.5;
+      --d5: 0.4204;
+      --d6: 0.3536;
+      --d7: 0.2973;
+      --d8: 0.25;
+    }
+
+    body {
+      background-color: var(--white);
+      color: var(--gray4);
+      display: flex;
+      flex-direction: column;
+      font-family: var(--sans);
+      font-size: 1rem;
+      line-height: var(--u2);
+      min-height: 100%;
+      overflow-y: scroll;
+    }
+
+    @media print {
+      body {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  @layer headings {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--gray1);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: calc(var(--u4) * 1em);
+      font-weight: normal;
+      letter-spacing: 0.125em;
+      line-height: 1;
+      margin: 0.5em 0;
+    }
+
+    @media (min-width: 20rem) {
+      h1 {
+        font-size: calc(var(--u5) * 1em);
+      }
+    }
+    @media (min-width: 30rem) {
+      h1 {
+        font-size: calc(var(--u6) * 1em);
+      }
+    }
+    @media (min-width: 48rem) {
+      h1 {
+        font-size: calc(var(--u7) * 1em);
+      }
+    }
+    @media (min-width: 60rem) {
+      h1 {
+        font-size: calc(var(--u8) * 1em);
+      }
+    }
+
+    h2 {
+      font-size: calc(var(--u1) * 1em);
+      letter-spacing: 0.25em;
+      margin: 0 0 1em;
+    }
+
+    h3 {
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+
+  @layer links {
+    :any-link {
+      text-decoration: none;
+    }
+
+    :any-link:is(:hover, :focus) {
+      outline: none;
+      text-decoration: underline;
+    }
+
+    @media print {
+      :any-link {
+        color: inherit;
+      }
+    }
+
+    :link {
+      color: var(--blue);
+    }
+
+    :visited {
+      color: var(--purple);
+    }
+  }
+
+  @layer lists {
+    ul,
+    ol {
+      padding-left: 2em;
+    }
+
+    li {
+      padding-left: 0.5em;
+    }
+  }
+
+  @layer typography {
+    p {
+      margin: 0 0 1em;
+    }
+  }
+}
+
+@layer components {
+  @layer {
+    .Body {
+      display: grid;
+      flex-grow: 1;
+      gap: 0;
+      grid-template:
+        "contact   "
+        "profile   "
+        "education "
+        "experience"
+        "skills    "
+        / 1fr;
+      margin: auto;
+      padding: 0 2rem;
+    }
+
+    @media (min-width: 48rem), print {
+      .Body {
+        background-image: linear-gradient(var(--grayC), var(--grayC));
+        background-position: calc((100% - 8rem) / 3 + 4rem) 0;
+        background-repeat: repeat-y;
+        background-size: 0.125rem;
+        gap: 0 4rem;
+        /* prettier-ignore */
+        grid-template:
+          "contact   profile   " auto
+          "education experience" auto
+          "skills    experience" 1fr
+          / 1fr      2fr         ;
+      }
+    }
+
+    @media (min-width: 60rem) {
+      .Body {
+        width: 58.75rem;
+      }
+    }
+
+    @media (min-width: 75rem) {
+      .Body {
+        width: 65rem;
+      }
+    }
+  }
+
+  @layer {
+    .ContactList {
+    }
+    @media (min-width: 48rem), print {
+      .ContactList {
+        list-style: none;
+        padding: 0;
+      }
+    }
+
+    .ContactList ._item {
+    }
+    @media (min-width: 48rem), print {
+      .ContactList ._item {
+        padding: 0;
+      }
+    }
+
+    .ContactList ._link {
+      align-items: baseline;
+      display: inline-flex;
+    }
+
+    .ContactList ._icon {
+      height: calc(var(--d1) * 1em);
+      margin-inline: 0 0.5em;
+    }
+
+    @media (min-width: 48rem), print {
+      .ContactList ._icon {
+        margin-inline: 0.5em 0;
+        order: 1;
+      }
+    }
+  }
+
+  @layer {
+    .Footer {
+    }
+  }
+
+  @layer {
+    .Header {
+    }
+  }
+
+  @layer {
+    .Section {
+    }
+
+    .Section.-contact {
+      grid-area: contact;
+    }
+    .Section.-education {
+      grid-area: education;
+    }
+    .Section.-experience {
+      grid-area: experience;
+    }
+    .Section.-profile {
+      grid-area: profile;
+    }
+    .Section.-skills {
+      grid-area: skills;
+    }
+  }
+
+  @layer {
+    .Subtitle {
+    }
+  }
+
+  @layer {
+    .Title {
+    }
+  }
+}
