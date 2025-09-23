@@ -286,7 +286,7 @@
       margin-bottom: 1em;
     }
 
-    @media (min-width: 48rem) {
+    @media (min-width: 48rem), print {
       .Section.-left {
         text-align: right;
       }
@@ -319,6 +319,19 @@
       letter-spacing: 0.5em;
       text-transform: uppercase;
       text-wrap: balance;
+    }
+  }
+
+  @layer {
+    .Tag {
+      --color: var(--gray6);
+      background-color: var(--white);
+      box-shadow: 0 0 0.0625rem var(--color);
+      border-radius: 0.25rem;
+      color: var(--color);
+      display: inline-block;
+      font-size: calc(var(--d2) * 1em);
+      padding: 0.125rem 0.25rem;
     }
   }
 
