@@ -170,6 +170,7 @@
   @layer lists {
     ul,
     ol {
+      font-size: calc(var(--d1) * 1em);
       padding-inline: 2em 0;
     }
 
@@ -238,6 +239,7 @@
 
   @layer {
     .ContactList {
+      font-size: 1em;
     }
     @media (min-width: 48rem), print {
       .ContactList {
@@ -275,7 +277,7 @@
 
   @layer {
     .Header {
-      padding: 2rem 0;
+      padding: 1.75rem 0;
       text-align: center;
     }
   }
