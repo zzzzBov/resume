@@ -175,6 +175,7 @@
 
     li {
       padding-inline: 0.5em 0;
+      text-wrap: balance;
     }
   }
 
