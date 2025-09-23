@@ -170,17 +170,21 @@
   @layer lists {
     ul,
     ol {
-      padding-left: 2em;
+      padding-inline: 2em 0;
     }
 
     li {
-      padding-left: 0.5em;
+      padding-inline: 0.5em 0;
     }
   }
 
   @layer typography {
     p {
       margin: 0 0 1em;
+    }
+
+    strong {
+      font-weight: 600;
     }
   }
 }
@@ -258,13 +262,6 @@
       height: 1em;
       margin-inline: 0 0.375em;
     }
-
-    @media (min-width: 48rem), print {
-      .ContactList ._icon {
-        margin-inline: 0.375em 0;
-        order: 1;
-      }
-    }
   }
 
   @layer {
@@ -289,6 +286,10 @@
     @media (min-width: 48rem), print {
       .Section.-left {
         text-align: right;
+      }
+
+      .Section.-left ul {
+        direction: rtl;
       }
     }
 
