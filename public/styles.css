@@ -261,6 +261,7 @@
 
     .ContactList ._icon {
       height: 1em;
+      line-height: 1;
       margin-inline: 0 0.375em;
     }
   }
