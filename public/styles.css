@@ -192,11 +192,11 @@
       flex-grow: 1;
       gap: 0;
       grid-template:
-        "contact   "
         "profile   "
-        "education "
         "experience"
+        "education "
         "skills    "
+        "contact   "
         / 1fr;
       margin: auto;
       padding: 0 2rem;
