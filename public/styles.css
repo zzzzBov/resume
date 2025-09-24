@@ -249,6 +249,7 @@
     }
 
     .ContactList ._item {
+      margin-block: 0.5em;
     }
     @media (min-width: 48rem), print {
       .ContactList ._item {
