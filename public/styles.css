@@ -152,18 +152,18 @@
       text-decoration: underline;
     }
 
-    @media print {
-      :any-link {
-        color: inherit;
-      }
-    }
-
     :link {
       color: var(--blue);
     }
 
     :visited {
       color: var(--purple);
+    }
+
+    @media print {
+      :any-link {
+        color: inherit;
+      }
     }
   }
 
